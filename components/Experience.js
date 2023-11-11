@@ -24,7 +24,7 @@ export default function Experience() {
             </div>
             <div className="texts">
               <h3>Ensala podcast co founder & Host</h3>
-              <p>I established "Ensala," a podcast dedicated to delving into the latest AI trends and innovations. My work involved conducting insightful interviews with AI experts, where we discussed the impact of AI across various industries. Through these efforts, the podcast achieved over 30,000 monthly listens and has been continually attracting a steadily growing audience. This success underscores the relevance and growing interest in AI, as well as the platform's effectiveness in engaging and educating listeners on this dynamic and rapidly evolving field.</p>
+              <p>I established Ensala, a podcast dedicated to delving into the latest AI trends and innovations. My work involved conducting insightful interviews with AI experts, where we discussed the impact of AI across various industries. Through these efforts, the podcast achieved over 30,000 monthly listens and has been continually attracting a steadily growing audience. This success underscores the relevance and growing interest in AI, as well as the platform&apos;s effectiveness in engaging and educating listeners on this dynamic and rapidly evolving field.</p>
             </div>
           </div>
           <div className="item">
@@ -36,7 +36,7 @@ export default function Experience() {
             <div className="texts">
               <h3>AI club founding member</h3>
               <h4>UPM, Medina</h4>
-              <p>I formulated the club's strategy, vision, and plans, focusing on establishing clear objectives and actionable steps to achieve them. My role also included leading diverse teams, where I ensured timely completion of tasks, fostering a collaborative and efficient work environment. Additionally, I delivered over four workshops on cutting-edge topics such as Computer Vision, Machine Learning, and Natural Language Processing (NLP). These workshops were instrumental in enhancing knowledge and skills, contributing to the club's educational goals, and keeping members engaged with the latest technological advancements.</p>
+              <p>I formulated the club&apos;s strategy, vision, and plans, focusing on establishing clear objectives and actionable steps to achieve them. My role also included leading diverse teams, where I ensured timely completion of tasks, fostering a collaborative and efficient work environment. Additionally, I delivered over four workshops on cutting-edge topics such as Computer Vision, Machine Learning, and Natural Language Processing (NLP). These workshops were instrumental in enhancing knowledge and skills, contributing to the club&apos;s educational goals, and keeping members engaged with the latest technological advancements.</p>
             </div>
           </div>
         </div>
