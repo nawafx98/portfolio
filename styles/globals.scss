@@ -1,29 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: #3D3E42;
     font-family: 'Roboto', sans-serif;
-    color:#fff;
+    color: #fff;
     overflow-x: hidden;
 }
-.center{
+
+.center {
     max-width: 780px;
     margin: 0 auto;
+    padding: 0 10px; // Added padding for smaller screens
+
+    @media screen and (max-width: 768px) {
+        max-width: 90%; // Adjust width for tablet devices
+    }
+
+    @media screen and (max-width: 480px) {
+        max-width: 100%; // Adjust width for mobile devices
+    }
 }
-img{
-    max-width:100%;
+
+img {
+    max-width: 100%;
+    height: auto; // Ensure images scale correctly
 }
-h2{
+
+h2 {
     font-family: 'Source Serif Pro', serif;
     font-size: 3rem;
-    font-weight:600;
+    font-weight: 600;
     margin-bottom: 20px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 2.5rem; // Smaller font size for tablets
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 2rem; // Smaller font size for mobile devices
+    }
 }
+
 $gold: #FAC86B;
+
+// Additional styles for responsiveness
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px; // Smaller font size for mobile devices
+    }
+}
