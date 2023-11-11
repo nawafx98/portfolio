@@ -2,7 +2,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio">
       <div className="center">
-        <h2>Portfolio</h2>
+        <h2>Portfolio, Soon!</h2>
         <div className="portfolio-container">
           <a href=""><img src="/img/macbook.jpg" alt=""/></a>
           <a href=""><img src="/img/macbook2.jpg" alt=""/></a>
